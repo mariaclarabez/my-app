@@ -53,7 +53,7 @@ export default function DiceRoller(){
     return (
     
     <div className={bodyDiv}>
-        <h1>Dice roller!</h1>
+        <h1>Dice Roller!</h1>
         <div>
         <TextField id="standard-basic" label="number of dice" onChange={event=>setDiceInput(event.target.value)} />
         <TextField id="standard-basic1" label="number of sides" onChange={event=>setNumSides(event.target.value)}/>
