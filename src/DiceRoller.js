@@ -59,7 +59,7 @@ export default function DiceRoller(){
         <TextField id="standard-basic1" label="number of sides" onChange={event=>setNumSides(event.target.value)}/>
         <TextField id="standard-basic2" label="desired value" onChange={event=>setDesiredValue(event.target.value)}/>
         <Button onClick={handleRun}>Run</Button>
-        <h3>{"Probability that you roll less than your desired value: "}{result}</h3>
+        <p>{"Probability that you roll less than your desired value: "}{result}</p>
         </div>
 
 
